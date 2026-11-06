@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8"> <!--[cite: 7] -->
-    <title>MIPsystem - Gerenciar Fazendas</title> <!--[cite: 1] -->
-    <link rel="stylesheet" href="style.css"> <!--[cite: 6] -->
+    <meta charset="UTF-8"> 
+    <title>MIPsystem - Gerenciar Fazendas</title> 
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h1>MIPsystem - Gestão de Fazendas</h1> <!--[cite: 1] -->
+    <h1>MIPsystem - Gestão de Fazendas</h1> 
     
-    <!-- Formulário que atende criar e editar[cite: 14] -->
-    <form id="form-registro"> <!--[cite: 14] -->
-        <input type="hidden" id="id-edicao"> <!--[cite: 12] -->
+    <!-- Formulário que atende criar e editar -->
+    <form id="form-registro"> 
+        <input type="hidden" id="id-edicao"> 
         
         <label>Nome da Fazenda:</label>
-        <input type="text" id="nome_fazenda"> <!--[cite: 14] -->
+        <input type="text" id="nome_fazenda"> 
         
         <label>Município/UF:</label>
-        <input type="text" id="municipio"> <!--[cite: 14] -->
+        <input type="text" id="municipio"> 
         
         <label>Área Total (ha):</label>
-        <input type="number" id="area_total" step="0.01"> <!--[cite: 14] -->
+        <input type="number" id="area_total" step="0.01"> 
         
         <button type="submit">Salvar Registro</button>
     </form>
@@ -36,14 +36,14 @@
             </tr>
         </thead>
         <tbody id="corpo-tabela">
-            <!-- Registros injetados via JavaScript[cite: 11] -->
+            <!-- Registros injetados via JavaScript -->
         </tbody>
     </table>
 
-    <!-- Ordem correta de carregamento dos scripts[cite: 6] -->
-    <script src="dados/script-inicial.js"></script> <!--[cite: 6] -->
-    <script src="js/banco.js"></script> <!--[cite: 6] -->
-    <script src="js/crud.js"></script> <!--[cite: 6] -->
-    <script src="js/interface.js"></script> <!--[cite: 6] -->
+    <!-- Ordem correta de carregamento dos scripts -->
+    <script src="dados/script-inicial.js"></script> 
+    <script src="js/banco.js"></script> 
+    <script src="js/crud.js"></script> 
+    <script src="js/interface.js"></script> 
 </body>
 </html>
