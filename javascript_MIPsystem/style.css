@@ -1,0 +1,121 @@
+/* Estilos gerais da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #225c38;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilos do Formulário */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #225c38;
+    outline: none;
+    box-shadow: 0 0 5px rgba(34, 92, 56, 0.3);
+}
+
+/* Botões Gerais */
+button {
+    background-color: #2b7a4b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1b5331;
+}
+
+/* Botões da Tabela (Ações) */
+button.editar {
+    background-color: #f39c12;
+    padding: 6px 12px;
+    margin-right: 5px;
+}
+
+button.editar:hover {
+    background-color: #d68910;
+}
+
+button.excluir {
+    background-color: #e74c3c;
+    padding: 6px 12px;
+}
+
+button.excluir:hover {
+    background-color: #c0392b;
+}
+
+/* Linha divisória */
+hr {
+    border: 0;
+    height: 1px;
+    background: #d1d8e0;
+    margin: 30px 0;
+}
+
+/* Estilos da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #225c38;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+td {
+    border-bottom: 1px solid #ecf0f1;
+}
+
+tr:hover td {
+    background-color: #f9fbf9;
+}
