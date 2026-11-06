@@ -42,7 +42,7 @@ crud-javascript/
 │ README.md                  # Documentação do repositório
 │ style.css                  # Aparência visual da página
 │ estrutura-dados.txt        # Documentação dos campos e dados de exemplo
-│ script-inicial.js          # Semeia dados de exemplo no primeiro acesso
+│ script_inicial.js          # Semeia dados de exemplo no primeiro acesso
 │ banco.js                   # Camada única de acesso ao localStorage (try/catch)
 │ crud.js                    # Lógica das funções de criar, listar, atualizar e excluir
 │ interface.js               # Manipulação do DOM, validação e eventos
