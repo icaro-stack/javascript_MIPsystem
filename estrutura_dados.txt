@@ -1,0 +1,14 @@
+Entidade: Fazenda[cite: 1]
+Armazenamento: Array de objetos JSON no localStorage[cite: 4, 9]
+
+Campos:
+- id: Identificador único gerado via Date.now() (Number)[cite: 9]
+- nome_fazenda: Nome da propriedade rural (String)[cite: 1]
+- municipio: Cidade da propriedade (String)[cite: 1]
+- area_total: Área em hectares (Number)[cite: 1]
+
+Exemplo de dados iniciais:[cite: 9]
+[
+  { "id": 1730925200001, "nome_fazenda": "Fazenda Santa Cruz", "municipio": "Ribeirão Preto", "area_total": 250.5 },
+  { "id": 1730925200002, "nome_fazenda": "Sítio das Águas", "municipio": "Uberlândia", "area_total": 85.0 }
+]
